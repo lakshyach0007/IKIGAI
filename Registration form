@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./Packages/transliteration/js/CDAC-Typing.js" id="translation"></script>
+    <script src="./Packages/transliteration/js/CDAC-Typing_A.js" id="translation1"></script>
+
+</head>
+<body>
+    <fieldset style="height: 100%;">
+        <!-- <legend> Rigistration Form </legend> -->
+        <table align="center" border="4"  height="100%" style="height: 100%;">
+            <form>
+        <tr text-align=""center>
+            <td colspan="2">RIGISTRATION FORM</td>
+            
+        </tr>
+        <tr>
+            <td>Student Name</td>
+            <td><input type="text" placeholder="Enter your name"/></td>
+        </tr>
+        <tr>
+            <td>Fathers name</td>
+            <td><input type="text" placeholder="Enter fathers name"/></td>
+        </tr>
+        <tr>
+            <td>Mothers name</td>
+            <td><input type="text" placeholder="Enter Mothers name"/></td>
+        </tr>
+        <tr>
+            <td>Date of birth</td>
+            <td><input type="date" width="100%"/></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><input type="radio" checked/>Male<input type="radio" />female</td>
+        </tr>
+        <tr>
+            <td>Mobile No</td>
+            <td><input type="number" placeholder="Enter your number" min="1000000000" max="9999999999"/></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" placeholder="ENter Email"/></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea rows="3"></textarea></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td>
+            <select class="form-select" name="stateCode" aria-label="State">
+                <option value="">Select State</option>
+                <option value="U01">Andaman &amp; Nicobar Islands</option>
+                <option value="S01">Andhra Pradesh</option>
+                <option value="S02">Arunachal Pradesh</option>
+                <option value="S03">Assam</option>
+                <option value="S04">Bihar</option>
+                <option value="U02">Chandigarh</option>
+                <option value="S26">Chhattisgarh</option>
+                <option value="U03">Dadra &amp; Nagar Haveli and Daman &amp; Diu</option>
+                <option value="S05">Goa</option>
+                <option value="S06">Gujarat</option>
+                <option value="S07">Haryana</option>
+                <option value="S08">Himachal Pradesh</option>
+                <option value="U08">Jammu and Kashmir</option>
+                <option value="S27">Jharkhand</option>
+                <option value="S10">Karnataka</option>
+                <option value="S11">Kerala</option>
+                <option value="U09">Ladakh</option>
+                <option value="U06">Lakshadweep</option>
+                <option value="S12">Madhya Pradesh</option>
+                <option value="S13">Maharashtra</option>
+                <option value="S14">Manipur</option>
+                <option value="S15">Meghalaya</option>
+                <option value="S16">Mizoram</option>
+                <option value="S17">Nagaland</option>
+                <option value="U05">NCT OF Delhi</option>
+                <option value="S18">Odisha</option>
+                <option value="U07">Puducherry</option>
+                <option value="S19">Punjab</option>
+                <option value="S20">Rajasthan</option>
+                <option value="S21">Sikkim</option>
+                <option value="S22">Tamil Nadu</option>
+                <option value="S29">Telangana</option>
+                <option value="S23">Tripura</option>
+                <option value="S24">Uttar Pradesh</option>
+                <option value="S28">Uttarakhand</option>
+                <option value="S25">West Bengal</option>
+            </select>
+          </td>  
+
+        </tr> 
+        <tr>
+            <td>Distict</td>
+            <td>
+            <select class="form-select" name="districtCd" aria-label="District"><option value="">Select District</option><option value="S2408">Agra</option><option value="S2409">Aligarh</option><option value="S2470">Ambedkar Nagar</option><option value="S2472">Amethi</option><option value="S2422">Amroha</option><option value="S2428">Auraiya</option><option value="S2467">Ayodhya</option><option value="S2447">Azamgarh</option><option value="S2407">Baghpat</option><option value="S2464">Baharaich</option><option value="S2449">Balia</option><option value="S2465">Balrampur</option><option value="S2438">Banda</option><option value="S2469">Barabanki</option><option value="S2415">Bareilly</option><option value="S2454">Basti</option><option value="S2446">Bhadohi</option><option value="S2421">Bijnor</option><option value="S2416">Budaun</option><option value="S2405">Bulandsahar</option><option value="S2443">Chandauli</option><option value="S2439">Chitrakoot</option><option value="S2452">Deoria</option><option value="S2413">Etah</option><option value="S2425">Etawah</option><option value="S2426">Farrukhabad</option><option value="S2430">Fatehpur</option><option value="S2411">Firozabad</option><option value="S2406">Gautam Buddha Nagar</option><option value="S2404">Ghaziabad</option><option value="S2442">Ghazipur</option><option value="S2463">Gonda</option><option value="S2450">Gorakhpur</option><option value="S2436">Hamirpur</option><option value="S2473">Hapur</option><option value="S2461">Hardoi</option><option value="S2414">Hathras</option><option value="S2435">Jalaun</option><option value="S2441">Jaunpur</option><option value="S2433">Jhansi</option><option value="S2427">Kannauj</option><option value="S2424">Kanpur Dehat</option><option value="S2423">Kanpur Nagar</option><option value="S2471">Kasganj</option><option value="S2432">Kaushambi</option><option value="S2462">Kheri</option><option value="S2453">Kushinagar</option><option value="S2434">Lalitpur</option><option value="S2457">Lucknow</option><option value="S2451">Maharajganj</option><option value="S2437">Mahoba</option><option value="S2412">Manpuri</option><option value="S2410">Mathura</option><option value="S2448">Mau</option><option value="S2403">Meerut</option><option value="S2444">Mirzapur</option><option value="S2419">Moradabad</option><option value="S2402">Muzaffarnagar</option><option value="S2418">Pilibhit</option><option value="S2431">Pratapgarh</option><option value="S2429">Prayagraj</option><option value="S2459">Rae Bareli</option><option value="S2420">Rampur</option><option value="S2401">Saharanpur</option><option value="S2475">Sambhal</option><option value="S2456">Sant Kabir Nagar</option><option value="S2417">Shahjahanpur</option><option value="S2474">Shamli</option><option value="S2466">Shrawasti</option><option value="S2455">Siddharthnagar</option><option value="S2460">Sitapur</option><option value="S2445">Sonbhadra</option><option value="S2468">Sultanpur</option><option value="S2458">Unnao</option><option value="S2440">Varanasi</option></select>
+        </td></tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="click here"></td>
+        </tr>
+        </form>
+    </table>
+    
+    </fieldset>
+</body>
+</html>
