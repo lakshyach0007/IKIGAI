@@ -1,0 +1,222 @@
+HTML Code
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="selecter.css" rel="stylesheet">
+<style>
+/*
+:default{
+  background-color: aquamarine;
+  color: red;
+}
+
+  :invalid{
+  background-color: pink;
+}
+:valid{
+  background-color: green;
+}
+
+    :required{
+    background-color: pink;
+  }
+  :optional{
+    background-color: green;
+  }
+
+  :in-range{
+  background-color: aquamarine;
+  color: black;
+  border: 3px solid green;
+}
+:out-of-range{
+  background-color: pink;
+  color: red;
+  border: 3px solid red;
+}
+
+     input:read-only,select{
+    border: 2px solid red;
+    box-shadow: 1px 1px 2px 2px red;
+  }
+
+  input:read-write{
+    box-shadow: 1px 1px 2px 2px green;
+  }
+
+   :disabled{
+    box-shadow: 1px 1px 2px 2px red;
+  }
+
+  :enabled{
+    box-shadow: 1px 1px 2px 2px green;
+  }
+
+  :focus{
+    background-color: aquamarine;
+    color: red;
+    border: 2px solid red;
+    box-shadow: 0px 0px 0px 2px red;
+    
+      :checked{
+    box-shadow: 1px 1px 2px 2px red;
+  }
+
+p::selection{
+  background-color: aquamarine;
+  color: tomato;
+}
+
+  p::first-line
+  {
+    color: red;
+    font-size: 20px;
+  }
+  li::first-letter
+  {
+    color: red;
+    font-size: 20px;
+  }
+
+  
+::placeholder{
+  background-color: aquamarine;
+  color: navy;
+}
+
+h1::before{
+content: "This is ";
+color: red;
+}
+
+h1::after{
+  content: " demo";
+  color: green;
+}
+
+*/
+
+</style>
+  </head>
+  <body>
+    <h1>CSS Pseudo Classes</h1>
+
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br/>
+      Assumenda nihil accusantium facere, at ipsum unde veritatis <br/>
+      dignissimos cumque error, debitis doloribus harum sequi. <br/>
+      Blanditiis et quia veritatis nisi impedit repellat?</p>
+
+      <ul>
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Rerum ipsum autem vitae?</li>
+        <li>Aut aliquid eveniet voluptate?</li>
+        <li>Doloribus nesciunt saepe debitis?</li>
+        <li>Quisquam iste eius ex!</li>
+      </ul>
+    <h1> Pseudo Classes</h1>
+  
+    <form>
+           Usr Identity:<input type="text" value="user101" readonly  /><br />
+      <div id="fn">First Name :<input type="text" placeholder="first name" required  /></div>
+      <div id="ln">Last Name :<input type="text" placeholder="last_name" required  /></div>
+  Hobbies: Reading<input type="checkbox" name="" id="ch1" checked /> Hiking<input
+        type="checkbox"
+        name=""
+        id="ch2"
+      />Cooking<input type="checkbox" name="" id="ch3" /> Music<input type="checkbox"name=""id="ch4"
+      /><br/>
+  Gender:<input type="radio" name="rdo" id=""  /><label>Female</label><input type="radio" name="rdo"  id="" checked/><label>Male</label><br /><br />
+  Email:<input type="email" name="" id="" /><br />
+  Age :<input type="number" min="18" max="45" /><br />
+  City:<select  >
+        <option selected  value="">Noida</option>
+        <option value="">Delhi</option>
+        <option selected value="Mathura">Mathura</option>
+        <option value="">Ghaziabad</option>
+      </select>
+      <br/>
+      <input type="submit" />
+    
+    </form>
+
+    </body>
+  </body>
+</html>
+
+CSS Code
+
+:default{
+    background-color: aquamarine;
+    color: red;
+}
+:invalid{
+    background-color: pink;
+}
+:valid{
+    background-color: green;
+}
+:required{
+    background-color: rgb(157, 32, 53);
+
+}
+:optional{
+    background-color: aquamarine;
+}
+:in-range{
+    background-color: aqua;
+    color: black;
+    border: 3px solid green;
+}
+:out-of-range{
+    background-color:pink ;
+    color: red;
+    border: 2px solid red;
+}
+input:read-only,select{
+    border: 2px solid red;
+    box-shadow: 1px 1px 2px 2px red;
+}
+input:read-write{
+    box-sizing: 1px 1px 2px 2px green;
+}
+:disabled{
+    box-shadow: 1px 1px 2px 2px red;
+}
+:enabled{
+    box-shadow: 1px 1px 2px 2px green;
+
+}
+:focus{
+    background-color: aquamarine;
+    color: red;
+    border: 2px solid red ;
+    box-shadow: 0px 0px 0px 2px red;
+}
+:checked{
+    box-shadow: 1px 1px 2px 2px red;
+    /* background-color: magenta; */
+}
+p::first-line{
+    color: red;
+    font-size: 25px;
+}
+li::first-letter{
+color: red;
+font-size: 25px;
+}
+::placeholder{
+    background-color: aquamarine;
+    color: navy;
+}
+h1::before{
+    content: "This is ";
+    color: red;
+}
+h1::after{
+    content: " Demo";
+    color: green;
+}
