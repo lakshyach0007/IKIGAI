@@ -1,0 +1,102 @@
+.HTML code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="newfr.css" rel="stylesheet"/>
+</head>
+<body>
+    <!-- <img src="img2.jpg" > -->
+       <nav> <ul>
+        <l1><a href="#">Home</a></l1>
+        <l1><a href="#">Product</a></l1>
+        <l1><a href="#">About</a></l1>
+        <l1><a href="#">Contact</a></l1>
+       </ul></nav> 
+    <header>
+        <h1>My website Home Page</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus alias molestiae assumenda doloribus eius ducimus optio earum culpa illo quaerat corrupti aspernatur voluptate nesciunt, pariatur sed deleniti quis debitis perferendis.
+        </p>
+        <a href="#">Read More</a>
+    </header>
+    <section>
+        <h3>About us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, labore perferendis. Corporis at veniam quisquam similique enim fuga placeat consequatur nulla vel quod, error deleniti molestiae accusantium, aliquam, natus nisi.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus ut saepe officia autem ipsum aut laudantium itaque, quasi est odio, provident rerum asperiores incidunt, nam sed velit cumque illo molestiae!
+        </p>
+    </section>
+    
+</body>
+</html>
+
+CSS Code
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0;
+    font-family: cursive;
+    /* background: url(img2.jpg) no-repeat; */
+}
+nav ul{
+    list-style: none;
+    float: right;
+}
+nav li{
+    float: left;
+}
+nav a{
+    display: block;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: .5rem,1.5rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    float: left ;
+
+}
+nav :hover{
+    background-color: lightblue;
+    color: red;
+    text-decoration: underline;
+    box-shadow: 2px 4px 15px tomato;
+}
+header{
+    padding-top: 13rem;
+    background:#123 url(img2.jpg) no-repeat;
+    color: aliceblue;
+    text-align: center;
+    height: 100vh;
+
+}
+section{
+    padding: 2rem;
+    text-shadow: 1px 1px 0px red;
+}
+select:hover>p{
+    font-size: 3rem;
+    text-shadow: 3px 3px 5px tomato;
+}
+header p{
+    padding: 2rem;
+    font-size: 2rem;
+    text-shadow: 3px 3px 5px red;
+}
+header a{
+    display: inline-block;
+    font-size: 1rem;
+    color: black;
+    padding: .50rem 2rem;
+    border-radius: 15%;
+    text-decoration: none;
+    background-color: white;
+    box-shadow: 3px 3px 5px red;
+}
+@media(max-height:500px){
+    header{
+        padding-top: 9rem;
+    }
+}
