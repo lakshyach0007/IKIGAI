@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        th{
+            background-color: rgb(155, 165, 42);
+        }
+        td{
+            background-color: palevioletred;
+        }
+        table,th,td{
+            border-color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <center><b> Basic Computer Course</b><br><br><br>
+    <table border="4" style="background-color: burlywood;">
+        <tr>
+            <th>Sr.no</th>
+            <th>Course Name</th>
+            <th>Fees</th>
+            <th>Duration</th>
+            <th>Eligibility</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>CCC-Course on computer concept</td>
+            <td>3000</td>
+            <td>3 months</td>
+            <td>10th</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>DCA-Dip;oma in Computer Application</td>
+            <td>6000</td>
+            <td>6 months</td>
+            <td>10th</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>ADCA-Advance Diploma in Computer Application</td>
+            <td>10000</td>
+            <td>12 months</td>
+            <td>10th</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>CCA-Course on Computer Application</td>
+            <td>2500</td>
+            <td>3 months</td>
+            <td>10th</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Tally</td>
+            <td>3000</td>
+            <td>3 months</td>
+            <td>10th</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>O Level</td>
+            <td>15000</td>
+            <td>1 year</td>
+            <td>12th</td>
+        </tr>
+    </table></center>
+</body>
+</html>
