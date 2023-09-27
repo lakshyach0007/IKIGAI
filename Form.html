@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <style>
+        fieldset {
+            /* background-color: blue; */
+            width: 78%;
+        }
+        body{
+            background-color: violet;
+            width: 85%;
+        }
+        input[type=submit]:nth-last-child(1){
+            width: 50%;
+        }
+        input[type=submit]{
+            background-color: darkslateblue;
+            width: auto;
+            
+        }
+        input[type=reset]{
+            background-color:blue ;
+            width: auto;
+        }
+        input{
+            width: 80%;
+        }
+        input[type=text]:nth-last-child(2){
+            width: 20%;
+        }
+    </style>
+</head>
+<body >
+    <fieldset > <b style="background-color: blue;"> Assignment Information</b><form><table height="50%" width="80%" >
+   
+        <tr>
+            <td>Course<br>
+            <input type="text"></td>
+            <td>Subject<br>
+            <input type="text"></td>
+        </tr>
+        <tr>
+            <td>Assignment Title<br>
+            <input type="text>"</td>
+            <td>Assignement Description<br>
+            <input type="text"> </td>
+        </tr>
+        <tr>
+            <td>Last Date of Submission<br>
+            <input type="date"></td>
+            <td> Name<br>
+            <input type="text"></td>
+        </tr>
+        <tr>
+            <td>Assignment File<br>
+            <input type="file"> <br>
+            <input type="submit" value="Save"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" >
+        </td>
+            <td> Roll No<br><input type="text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Submit"></td>
+        </tr>
+    </table></form></fieldset>
+    
+</body>
+</html>
